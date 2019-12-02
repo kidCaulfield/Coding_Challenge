@@ -15,6 +15,7 @@ const Form = (props) => {
 
   const getForm = async () => {
     const res = await FormRequest.get();
+    console.log('res: ', res);
     setFields(res.fields)
   }
 
@@ -74,7 +75,7 @@ const Form = (props) => {
   
   return (
     <div className="Form">
-      <h2>Form Generated</h2>
+      <h2>Dependents</h2>
       {buildForm(values, fields)}
     </div>
   )
