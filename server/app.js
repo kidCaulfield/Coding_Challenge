@@ -28,6 +28,9 @@ app.options('*', cors({
 const dataRouter = require("./routes/data");
 app.use("/api", dataRouter);
 
+const formRouter = require("./routes/form");
+app.use("/api", formRouter);
+
 //////////////////////////////////////////////////////////////////////
 /*                            Server                                */
 //////////////////////////////////////////////////////////////////////
