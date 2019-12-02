@@ -14,6 +14,6 @@ One Comply coding challenge, form generator.
 
 #### Run in development:
 
-* run `npm run dev` from server
+* run `npm run dev` from server directory
 
-* run `yarn start` from clienT
+* run `yarn start` from client directory
